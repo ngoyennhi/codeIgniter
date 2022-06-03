@@ -1,0 +1,72 @@
+ERROR - 2022-06-02 02:22:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%season%' at line 1
+CRITICAL - 2022-06-02 02:22:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%season%' at line 1
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `Id`,`no...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Id`,`no...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Id`,`no...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(60): CodeIgniter\Database\BaseConnection->query('SELECT `Id`,`no...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(31): App\Models\M_ModelRecipe->findOneNameIdForApi('season')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->search('season')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 02:25:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%season%' at line 1
+CRITICAL - 2022-06-02 02:25:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%season%' at line 1
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `Id`,`no...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Id`,`no...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Id`,`no...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(60): CodeIgniter\Database\BaseConnection->query('SELECT `Id`,`no...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(31): App\Models\M_ModelRecipe->findOneNameIdForApi('season')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->search('season')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 02:25:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Macarons%' at line 1
+CRITICAL - 2022-06-02 02:25:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Macarons%' at line 1
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `Id`,`no...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Id`,`no...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Id`,`no...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(60): CodeIgniter\Database\BaseConnection->query('SELECT `Id`,`no...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(31): App\Models\M_ModelRecipe->findOneNameIdForApi('Macarons')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->search('Macarons')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 02:28:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+CRITICAL - 2022-06-02 02:28:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `Id`,`no...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Id`,`no...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Id`,`no...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(60): CodeIgniter\Database\BaseConnection->query('SELECT `Id`,`no...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(31): App\Models\M_ModelRecipe->findOneNameIdForApi('Macarons')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->search('Macarons')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 02:28:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+CRITICAL - 2022-06-02 02:28:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `Id`,`no...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Id`,`no...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Id`,`no...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(60): CodeIgniter\Database\BaseConnection->query('SELECT `Id`,`no...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(31): App\Models\M_ModelRecipe->findOneNameIdForApi('Macarons')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->search('Macarons')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-02 02:28:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+CRITICAL - 2022-06-02 02:28:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT `Id`,`no...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Id`,`no...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Id`,`no...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(60): CodeIgniter\Database\BaseConnection->query('SELECT `Id`,`no...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(31): App\Models\M_ModelRecipe->findOneNameIdForApi('Macarons')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->search('Macarons')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

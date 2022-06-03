@@ -1,0 +1,16 @@
+CRITICAL - 2022-06-03 10:36:41 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 71, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(38): App\Models\M_ModelRecipe->findOneRecetteForApi(3)
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->searchId('3')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 10:37:31 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 71, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(38): App\Models\M_ModelRecipe->findOneRecetteForApi(3)
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->searchId('3')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

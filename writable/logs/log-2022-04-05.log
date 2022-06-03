@@ -1,0 +1,167 @@
+CRITICAL - 2022-04-05 03:19:56 --> syntax error, unexpected '}', expecting ';'
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 03:19:56 --> syntax error, unexpected '}', expecting ';'
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/M...')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 03:55:10 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:01:41 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:01:45 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:01:48 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:04:24 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:04:25 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:04:27 --> Invalid file: home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): view('home')
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 08:40:01 --> Undefined variable: title_tag
+#0 /Applications/MAMP/htdocs/framework-4.1.9/app/Views/tag/all-tags.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/all-t...', Array, true)
+#4 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/BaseController.php(99): view('Views/tag/all-t...', Array)
+#5 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(10): App\Controllers\BaseController->renderTags('all-tags')
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-05 08:40:51 --> Undefined variable: title_tag
+#0 /Applications/MAMP/htdocs/framework-4.1.9/app/Views/tag/all-tags.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/all-t...', Array, true)
+#4 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/BaseController.php(99): view('Views/tag/all-t...', Array)
+#5 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(10): App\Controllers\BaseController->renderTags('all-tags')
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-05 08:53:49 --> Call to undefined method App\Controllers\Home::renderTags()
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 08:54:50 --> Call to undefined method App\Controllers\Home::renderTags()
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 08:55:28 --> Call to undefined method App\Controllers\Home::renderTags()
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 08:55:41 --> Call to undefined method App\Controllers\Home::renderTags()
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 14:02:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Applications/MAMP/htdocs/framework-4.1.9/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /Applications/MAMP/htdocs/framework-4.1.9/spark(45): require('/Applications/M...')
+#4 {main}
+CRITICAL - 2022-04-05 09:11:15 --> Invalid file: Views/pages/pages/home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/pages/pag...')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('Views/pages/pag...', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/BaseController.php(74): view('Views/pages/pag...', Array)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): App\Controllers\BaseController->renderTemplate('pages/home')
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 09:11:33 --> Invalid file: Views/pages/pages/home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/pages/pag...')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('Views/pages/pag...', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/BaseController.php(74): view('Views/pages/pag...', Array)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): App\Controllers\BaseController->renderTemplate('pages/home')
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 09:12:04 --> Invalid file: Views/pages/pages/home.php
+#0 /Applications/MAMP/htdocs/framework-4.1.9/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/pages/pag...')
+#1 /Applications/MAMP/htdocs/framework-4.1.9/system/Common.php(1089): CodeIgniter\View\View->render('Views/pages/pag...', Array, true)
+#2 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/BaseController.php(74): view('Views/pages/pag...', Array)
+#3 /Applications/MAMP/htdocs/framework-4.1.9/app/Controllers/Home.php(9): App\Controllers\BaseController->renderTemplate('pages/home')
+#4 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/framework-4.1.9/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/framework-4.1.9/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

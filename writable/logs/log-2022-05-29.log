@@ -1,0 +1,165 @@
+CRITICAL - 2022-05-29 04:04:27 --> include(tags.php): failed to open stream: No such file or directory
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(tags.ph...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): include()
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(210): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/searc...', Array, true)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/BaseController.php(75): view('Views/tag/searc...', Array)
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/Tags.php(35): App\Controllers\BaseController->renderTemplate('tag/search-tag')
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\Tags->rechercherTag()
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-29 04:04:45 --> include(tags.php): failed to open stream: No such file or directory
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(tags.ph...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): include()
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(210): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/searc...', Array, true)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/BaseController.php(75): view('Views/tag/searc...', Array)
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/Tags.php(35): App\Controllers\BaseController->renderTemplate('tag/search-tag')
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\Tags->rechercherTag()
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-29 04:30:18 --> include(tags.php): failed to open stream: No such file or directory
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(tags.ph...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): include()
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(210): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/searc...', Array, true)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/BaseController.php(75): view('Views/tag/searc...', Array)
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/Tags.php(35): App\Controllers\BaseController->renderTemplate('tag/search-tag')
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\Tags->rechercherTag()
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-29 05:02:18 --> Undefined variable: tag
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/all-tags.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 14, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(210): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/all-t...', Array, true)
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/BaseController.php(75): view('Views/tag/all-t...', Array)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/Tags.php(18): App\Controllers\BaseController->renderTemplate('tag/all-tags', Array)
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\Tags->index()
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-29 05:05:30 --> include(tags.php): failed to open stream: No such file or directory
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(tags.ph...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): include()
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(210): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/searc...', Array, true)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/BaseController.php(75): view('Views/tag/searc...', Array)
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/Tags.php(35): App\Controllers\BaseController->renderTemplate('tag/search-tag')
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\Tags->rechercherTag()
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-29 05:47:01 --> include(tags.php): failed to open stream: No such file or directory
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(tags.ph...', '/Applications/M...', 1, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Views/tag/search-tag.php(1): include()
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(210): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Common.php(1089): CodeIgniter\View\View->render('Views/tag/searc...', Array, true)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/BaseController.php(75): view('Views/tag/searc...', Array)
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/Tags.php(36): App\Controllers\BaseController->renderTemplate('tag/search-tag')
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\Tags->rechercherTag()
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-29 18:02:11 --> Unknown column '$cat' in 'where clause'
+CRITICAL - 2022-05-29 18:02:11 --> Unknown column '$cat' in 'where clause'
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 18:04:24 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-29 18:06:26 --> Unknown column 'season' in 'where clause'
+CRITICAL - 2022-05-29 18:06:26 --> Unknown column 'season' in 'where clause'
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 18:10:26 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 18:10:32 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 18:10:50 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 11, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 18:12:23 --> A non-numeric value encountered
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-29 18:19:13 --> Unknown column 'season' in 'where clause'
+CRITICAL - 2022-05-29 18:19:13 --> Unknown column 'season' in 'where clause'
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-29 18:19:42 --> Unknown column 'season' in 'where clause'
+CRITICAL - 2022-05-29 18:19:42 --> Unknown column 'season' in 'where clause'
+#0 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Models/M_ModelRecipe.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/app/Controllers/ApiController.php(23): App\Models\M_ModelRecipe->findAllForApiByCat('season')
+#5 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(832): App\Controllers\ApiController->category('season')
+#6 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#7 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/nestiADMIN_CodeIgniter4/project_root_CodeIgniter4/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
