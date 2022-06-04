@@ -26,7 +26,7 @@ class ApiController extends BaseController{
         die;
 } 
 
-    public function search($motCle){
+ public function search($motCle){
         $model = new M_ModelRecipe();
         $recipesBySearch = $model->findOneNameIdForApi($motCle);
         header('Content-Type: application/json');

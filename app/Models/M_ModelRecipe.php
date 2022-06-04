@@ -66,7 +66,7 @@ public function findOneNameIdForApi($motCle) {
  */
 public function findOneRecetteForApi(int $idRecette) {
     // requette reparere pour la sécurity
-    $query = $this->db->query('SELECT * FROM `RecettesNesti` WHERE Id = ?',array($idRecette));  
+    $query = $this->db->query('SELECT * FROM `view_api_recipes_detail_all` WHERE Id = ?',array($idRecette));  
     return $query->getResult(); 
 }
 
